@@ -1,0 +1,25 @@
+===============
+Telegram Auto Forwarder
+===============
+***************
+Requirements
+***************
+
+
+You need to install following software on your compuer, Before using this bot.
+*****************
+
+Git - https://git-scm.com/downloads
+
+Heroku CLI - https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+
+Python3 -  https://www.python.org/downloads/
+
+Python Dependencies
+*****************
+
+Open CMD in side your project directory.
+
+Run Following command to install required dependencies
+
+python3 -m pip install -r requirements.txt

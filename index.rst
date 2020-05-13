@@ -75,6 +75,7 @@ Chat id is **47425654**
 **Please make sure that your chat id is only containing numbers.Letters or any special characters should not be in Chat id**
 
 
+
 Add or change Source file
 ===============
 
@@ -103,7 +104,7 @@ This is not an essential step, But if You asked to login to Heroku when your try
 .. code-block:: bash
 
 
-   Heroku login
+   heroku login
 
 It will ask to Press any key.After pressing a key a web browser tab will be opened.Login with your Heroku Account username and password.Then close browser window.
 
@@ -126,3 +127,21 @@ Open CMD in your project directory and run below commands,
    git push
 
 Now you have successfully uploaded your app to Heroku, It will start running immediatly after uploading.
+
+
+*****************
+Start / Stop the bot
+*****************
+
+If you need to Stop the running bot or Start it again, Just go to https://dashboard.heroku.com/apps/ and log in and then You will see your app there, click on it
+
+Then Click on Resources
+
+.. image:: https://i.postimg.cc/vTXvn82X/Screenshot-from-2020-05-13-12-37-56.png
+
+Then Click on Resources pen icon highlighted in below image
+
+.. image:: https://i.postimg.cc/RV4SVCzy/Screenshot-from-2020-05-13-12-37-56.png
+
+
+Now you will see a on/off button, using that button you can Start or Stop your bot.Please make sure that you press on "Confirm" button after starting or stoping the bot.

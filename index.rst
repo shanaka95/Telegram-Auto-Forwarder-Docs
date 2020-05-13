@@ -25,7 +25,8 @@ Open CMD in side your project directory.
 Run Following command to install required dependencies
 
 .. code-block:: bash
-python3 -m pip install -r requirements.txt
+
+   python3 -m pip install -r requirements.txt
 
 
 First Step - Authenticating Locally
@@ -36,4 +37,9 @@ After Installing all the required Software and Dependencies,You need to run the 
 Open CMD in your project directory and run below command,
 
 .. code-block:: bash
-python3 test3.py
+
+   python3 test3.py
+
+It will ask a Phone number or Bot token from you.Enter your Telegram Enabled phone number.
+Then they will send you OTP code to your telegram app or as a SMS. Enter it in CMD when it asks
+

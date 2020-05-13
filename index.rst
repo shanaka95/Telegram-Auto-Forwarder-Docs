@@ -54,6 +54,26 @@ If you need to change or add new Source and Destinations, Just edit sources.txt 
 Find Chat ID
 ===============
 
+- Open https://web.telegram.org and and log in
+
+- Click on the source or destination you want to find chat id
+
+- Look at the URL, 
+
+If it looks like this, ``https://web.telegram.org/#/im?p=g377422492``
+
+Chat id is **377422492**, 
+
+|
+
+If it looks like this, ``https://web.telegram.org/#/im?p=c47425654_356767``
+
+Chat id is **47425654**
+
+|
+
+**Please make sure that your chat id is only containing numbers.Letters or any special characters should not be in Chat id**
+
 
 Add or change Source file
 ===============
@@ -105,4 +125,4 @@ Open CMD in your project directory and run below commands,
    git commit -m "initial"
    git push
 
-Now you have successfully uploaded your app to Heroku, It will start running immediatly after uploading
+Now you have successfully uploaded your app to Heroku, It will start running immediatly after uploading.

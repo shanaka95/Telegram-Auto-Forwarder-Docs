@@ -46,7 +46,33 @@ It will ask a Phone number or Bot token from you.Enter your Telegram Enabled pho
 Then they will send you OTP code to your telegram app or as a SMS. Enter it in CMD when it asks
 
 *****************
-Second Step - Upload to Heroku
+Second Step - Add or change Source file
+*****************
+
+If you need to change or add new Source and Destinations, Just edit sources.txt file in project folder and add them, But before adding a source or destination, you need to find the chat id of source or destination
+
+Find Chat ID
+===============
+
+
+Add or change Source file
+===============
+
+Then add sources and destinations  to .sources.txt in following format,
+
+.. code-block:: bash
+
+   Source1:Destination1
+   Source2:Destination2
+   Source3:Destination3:Optional Comment to identify source and destination
+   Source3:Destination4
+   Source4:Destination1:Optional Comment to identify source and destination
+   Source4:Destination2
+
+
+
+*****************
+Third Step - Upload to Heroku
 *****************
 
 Login to Heroku
@@ -61,8 +87,22 @@ This is not an essential step, But if You asked to login to Heroku when your try
 
 It will ask to Press any key.After pressing a key a web browser tab will be opened.Login with your Heroku Account username and password.Then close browser window.
 
-When you logged in using Browser windows, CMD will automatically display 
+When you logged in using Browser window, CMD will automatically display 
 
 .. code-block:: bash
 
    Logged in as <Your email>
+
+Upload to Heroku
+===============
+
+
+Open CMD in your project directory and run below commands,
+
+.. code-block:: bash
+
+   git add .
+   git commit -m "initial"
+   git push
+
+Now you have successfully uploaded your app to Heroku, It will start running immediatly after uploading

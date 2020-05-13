@@ -139,7 +139,7 @@ Then Click on Resources
 
 .. image:: https://i.postimg.cc/vTXvn82X/Screenshot-from-2020-05-13-12-37-56.png
 
-Then Click on Resources pen icon highlighted in below image
+Then Click on ``pen icon`` highlighted in below image
 
 .. image:: https://i.postimg.cc/RV4SVCzy/Screenshot-from-2020-05-13-12-37-56.png
 
